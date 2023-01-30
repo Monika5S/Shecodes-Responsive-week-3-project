@@ -92,3 +92,29 @@ a.launch-links {
 .email-link:hover {
   text-decoration: underline;
 }
+
+@media(max-width:768px) {
+  body {
+    margin: 10% auto;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .launch-links {
+    display: block;
+    text-align: center;
+    margin: 0 5%;
+  }
+
+  img {
+    margin: 2% auto;
+  }
+}
